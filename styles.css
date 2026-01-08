@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #469165;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #04381a;
+}
+
+header {
+    background-color: #ffffff;
+    margin-top: 16px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo img {
+    width: 139px;
+    height: 60px;
+}
+
+header nav .menu {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header nav .menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+#banner {
+    max-width: 1600px;
+    height: 674px;
+    margin: 0 auto;
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+}
+
+#banner .banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+    margin: 116px auto 179px auto;
+} 
+
+#banner .banner-container .banner-heading {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    margin-bottom: 16px;
+    max-width: 770px;
+}
+
+.banner-container .banner-heading #part1 {
+    color: #FFFFFF;
+}
+.banner-container .banner-heading #part2 {
+    color: #30B868;
+}
+
+.banner-container .description-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+#banner .banner-container div {
+    display: flex ;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .btn-custom2 {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.banner-container .btn-custom1 {
+    border: 1px solid transparent;
+}
+
+.banner-container .btn-custom1:hover{
+    border: 1px solid #FFFFFF;
+    outline-offset: -1px;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.banner-container .btn-custom2:hover {
+    background-color: #469165;
+    /* border: none; */
+}
+
+.banner-container .btn-sign {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.banner-container .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; 
+}
