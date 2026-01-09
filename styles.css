@@ -31,6 +31,14 @@
     background-color: #04381a;
 }
 
+
+.btn-sign {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+
 .section-heading h2{
     font-size: 48px;
     font-weight: bold;
@@ -152,12 +160,6 @@ header nav .menu li a {
     /* border: none; */
 }
 
-.banner-container .btn-sign {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-}
-
 .banner-container .btn {
     display: inline-flex;
     align-items: center;
@@ -184,7 +186,6 @@ header nav .menu li a {
 .problem-container .problem-info .info-card {
     /* border: 1px solid red; */
     text-align: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -193,7 +194,7 @@ header nav .menu li a {
     max-height: 300px;  
     max-width: 322px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.425);
 }
 
 
@@ -222,5 +223,95 @@ header nav .menu li a {
     margin-bottom: 16px;
 }
 
+#solution {
+    margin-top: 120px;
+}
+#solution .solution-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
 
-.problem-container .info-card 
+#solution .solution-container .solution-img {
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution-container .solution-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.solution-container .solution-description {
+    text-align: left;
+}
+
+.solution-container .solution-description h4 {
+    font-style: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.solution-container .solution-description h2 {
+    margin-bottom: 16px;
+}
+.solution-container .solution-description p {
+    margin-bottom: 40px;
+}
+
+.solution-container .solution-description ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.solution-container .solution-description ul li {
+    display: flex;
+    align-items: start;
+    gap: 6px;
+    text-align: left;
+    color: #001931;
+}
+
+.solution-container .solution-description ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+#access {
+    margin-top: 120px;
+}
+
+#access .access-container {
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+#access .access-container .section-heading h2 {
+    margin-bottom: 16px;
+}
+
+#access .access-container .section-heading p {
+    margin-bottom: 24px;
+}
+
+#access .access-container .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; 
+    margin-bottom: 16px;
+}
+
