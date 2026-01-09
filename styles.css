@@ -43,6 +43,7 @@
     font-size: 48px;
     font-weight: bold;
     color:#001931;
+    text-transform: capitalize;
 }
 
 .section-heading p {
@@ -84,7 +85,6 @@ header nav .menu li a {
 
 .menu li a:hover {
     color: #34d675;
-    /* padding: 12px 16px; */
 }
 
 #banner {
@@ -105,8 +105,6 @@ header nav .menu li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    /* border: 2px solid red; */
     margin: 116px auto 179px auto;
 } 
 
@@ -132,13 +130,6 @@ header nav .menu li a {
     line-height: 24px;
     color: #ffffff;
     margin-bottom: 32px;
-
-    /* background-color: #F95555; */
-    /* 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
 }
 
 .banner-container .description-text p {
@@ -171,7 +162,6 @@ header nav .menu li a {
 
 .banner-container .btn-custom2:hover {
     background-color: #469165;
-    /* border: none; */
 }
 
 .banner-container .btn {
@@ -188,9 +178,7 @@ header nav .menu li a {
 #problem .problem-container .section-heading h2{
     margin-bottom: 16px;
 }
-/* #problem .problem-container .section-heading p{
-    margin-bottom: 44px;
-} */
+
 .problem-container .problem-info {
     display: flex;
     justify-content: space-between;
@@ -198,7 +186,6 @@ header nav .menu li a {
 }
 
 .problem-container .problem-info .info-card {
-    /* border: 1px solid red; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -235,6 +222,7 @@ header nav .menu li a {
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 
 #solution {
@@ -394,7 +382,6 @@ footer {
     align-items: start;
     text-align: center;
     gap: 16px;
-    /* background-color: #FFFFFF; */
 }
 
 .social-icon .icon {
